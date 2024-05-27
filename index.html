@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="images/favicon.ico"/>
+    <title>GPA to Percentage Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>GPA to Percentage Converter</h1>
+        <div class="converter">
+            <input type="number" id="gpaInput" placeholder="Enter GPA">
+            <button onclick="convertToPercentage()">Convert to Percentage</button>
+            <p id="percentageResult"></p>
+        </div>
+        <div class="converter">
+            <input type="number" id="percentageInput" placeholder="Enter Percentage">
+            <button onclick="convertToGPA()">Convert to GPA</button>
+            <p id="gpaResult"></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
